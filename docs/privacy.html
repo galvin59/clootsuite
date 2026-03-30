@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ClootSuite</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e0e0e0; min-height: 100vh; }
+        .container { max-width: 720px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #fff; }
+        .date { color: #666; margin-bottom: 2rem; font-size: 0.9rem; }
+        h2 { font-size: 1.2rem; color: #c084fc; margin: 1.5rem 0 0.5rem; }
+        p { line-height: 1.7; color: #aaa; margin-bottom: 1rem; }
+        ul { margin: 0 0 1rem 1.5rem; color: #aaa; line-height: 1.7; }
+        a { color: #7c3aed; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back { display: inline-block; margin-bottom: 2rem; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back">&larr; Back to ClootSuite</a>
+        <h1>Privacy Policy</h1>
+        <p class="date">Last updated: March 30, 2026</p>
+
+        <h2>1. Overview</h2>
+        <p>ClootSuite is a command-line tool that runs entirely on your local machine. We are committed to protecting your privacy and being transparent about what data is accessed and how it is used.</p>
+
+        <h2>2. Data We Collect</h2>
+        <p>ClootSuite does not collect, transmit, or store any personal data on external servers. All data remains on your local device.</p>
+
+        <h2>3. Data Stored Locally</h2>
+        <p>The following data is stored on your device:</p>
+        <ul>
+            <li><strong>OAuth tokens:</strong> Stored in your operating system's secure keychain (macOS Keychain, Windows Credential Manager, or Linux keyring). These tokens are used to authenticate with social media platforms.</li>
+            <li><strong>Configuration:</strong> API keys and settings stored in a local <code>.env</code> file in the project directory.</li>
+        </ul>
+
+        <h2>4. Third-Party API Access</h2>
+        <p>When you use ClootSuite to publish content, the tool communicates directly with third-party platform APIs (TikTok, X/Twitter, Instagram). The data shared with these platforms includes:</p>
+        <ul>
+            <li>Video files and images you choose to upload</li>
+            <li>Captions, hashtags, and metadata you provide</li>
+            <li>Your OAuth authentication tokens for API access</li>
+        </ul>
+        <p>This data is sent directly to the respective platforms. ClootSuite does not route any data through intermediary servers. Please refer to each platform's privacy policy for details on how they handle your data.</p>
+
+        <h2>5. Data Sharing</h2>
+        <p>ClootSuite does not share, sell, or transmit any of your data to third parties beyond the social media platforms you explicitly choose to publish to.</p>
+
+        <h2>6. Data Retention</h2>
+        <p>OAuth tokens remain in your system keychain until you explicitly revoke them using ClootSuite's logout command or manually remove them. No data is retained on any external server.</p>
+
+        <h2>7. Your Rights</h2>
+        <p>Since all data is stored locally on your device, you have full control over it at all times. You can delete your OAuth tokens, configuration files, and any cached data at any time.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>ClootSuite is not intended for use by children under 13. We do not knowingly collect data from children.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be reflected in the "Last updated" date above.</p>
+
+        <h2>10. Contact</h2>
+        <p>For questions about this privacy policy, please open an issue on our <a href="https://github.com/galvin59/clootsuite">GitHub repository</a>.</p>
+    </div>
+</body>
+</html>
